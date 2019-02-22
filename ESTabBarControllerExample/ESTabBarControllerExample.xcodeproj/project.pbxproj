@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3C69F8171EF81895009D5F4A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C69F8191EF81895009D5F4A /* Localizable.strings */; };
+		3C69F8171EF81895009D5F4A /* ESTabBarController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C69F8191EF81895009D5F4A /* ESTabBarController.strings */; };
+		8E0DCFB62220602400D34854 /* ESTabBarController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C69F8191EF81895009D5F4A /* ESTabBarController.strings */; };
 		F6858F411E4F435C002DAF6C /* IconTransitions.json in Resources */ = {isa = PBXBuildFile; fileRef = F6858F3F1E4F435C002DAF6C /* IconTransitions.json */; };
 		F6858F441E4F436F002DAF6C /* ExampleLottieAnimateContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6858F431E4F436F002DAF6C /* ExampleLottieAnimateContentView.swift */; };
 		F6858F461E4F4384002DAF6C /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F6858F401E4F435C002DAF6C /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -71,7 +72,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		3C69F8181EF81895009D5F4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3C69F8181EF81895009D5F4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ESTabBarController.strings; sourceTree = "<group>"; };
 		F6858F3F1E4F435C002DAF6C /* IconTransitions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = IconTransitions.json; sourceTree = "<group>"; };
 		F6858F401E4F435C002DAF6C /* Lottie.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Lottie.framework; sourceTree = "<group>"; };
 		F6858F431E4F436F002DAF6C /* ExampleLottieAnimateContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleLottieAnimateContentView.swift; sourceTree = "<group>"; };
@@ -203,7 +204,7 @@
 				F6EE45931E4ACB60001E0FA1 /* ESTabBarItemContentView.swift */,
 				F6EE459B1E4C0940001E0FA1 /* ESTabBarItemMoreContentView.swift */,
 				F6EE459E1E4C360A001E0FA1 /* ESTabBarItemBadgeView.swift */,
-				3C69F8191EF81895009D5F4A /* Localizable.strings */,
+				3C69F8191EF81895009D5F4A /* ESTabBarController.strings */,
 			);
 			name = Sources;
 			path = ../../Sources;
@@ -333,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0DCFB62220602400D34854 /* ESTabBarController.strings in Resources */,
 				F6EE45621E4AC173001E0FA1 /* LaunchScreen.storyboard in Resources */,
 				F6858F491E4F45A9002DAF6C /* LottieLogo1.json in Resources */,
 				F6858F411E4F435C002DAF6C /* IconTransitions.json in Resources */,
@@ -346,7 +348,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C69F8171EF81895009D5F4A /* Localizable.strings in Resources */,
+				3C69F8171EF81895009D5F4A /* ESTabBarController.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,12 +401,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3C69F8191EF81895009D5F4A /* Localizable.strings */ = {
+		3C69F8191EF81895009D5F4A /* ESTabBarController.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3C69F8181EF81895009D5F4A /* en */,
 			);
-			name = Localizable.strings;
+			name = ESTabBarController.strings;
 			sourceTree = "<group>";
 		};
 		F6EE455B1E4AC173001E0FA1 /* Main.storyboard */ = {
